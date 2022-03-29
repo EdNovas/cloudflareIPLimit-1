@@ -6,7 +6,7 @@
 * 自行对照nginx.conf进行修改配置即可
 * 修改需要防御的站点配置 根据3byte.me.conf对照修改
 * 将cfc.sh放入/www/wwwlogs/目录下 并编辑配置.
-* 配置一个定时任务, 1-3分钟都行.bash /www/wwwlogs.cfc.sh
+* 配置一个定时任务, 1-3分钟都行.bash /www/wwwlogs/cfc.sh
 * 配置一个日志切割, 因为cfc.sh会遍历网站日志文件, 如果文件太大会消耗很长时间.
 
 
